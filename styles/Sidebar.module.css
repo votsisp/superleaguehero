@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+
+.container {
+    min-width: 150px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: grid;
+    position: relative;
+    place-items: center;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+    font-family: 'Italiana', serif;
+    text-transform: uppercase;
+}
+
+.image {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 32, 32);
+}
+
+.piece {
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: 1px white;
+    border-top: 1px solid black;
+    cursor: pointer;
+}
+
+.activepiece {
+    background-color: lightgreen;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    border-top: 1px solid black;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: none;
+        
+    }
+  }

@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  min-height: fit-content;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px blue;
+}
+
+.cardTitle {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+  padding-bottom: 5px;
+}
+
+.cardTitle span {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
+.title h1 {
+  background-color: inherit;
+  height: fit-content;
+  text-align: center;
+  width: 100%;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: "Gloock", serif;
+}
+
+.cup {
+  fill: gold;
+  margin: 0 10px;
+}
+
+.cup2 {
+  fill: silver;
+  margin: 0 10px;
+}
+
+.cup3 {
+  fill: brown;
+  margin: 0 10px;
+}
+
+.matches {
+  overflow-y: scroll;
+} 
+
+.matches::-webkit-scrollbar {
+  width: 1px;
+}
+
+.matches::-webkit-scrollbar-track {
+  background: rgb(50, 50, 50);
+}
+
+.cardBody {
+  display: none;
+}
+
+.date_card {
+  display: none;
+}
+
+.userscore {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.userscore p {
+  padding: 0;
+  margin: 0;
+}
+
+.btn2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  background-color: yellowgreen;
+}

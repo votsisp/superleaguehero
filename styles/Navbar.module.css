@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+
+.container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(15, 16, 63);
+  overflow: visible;
+}
+
+.logo {
+  background-color: rgb(15, 16, 63);
+  margin: 0;
+  padding: 0;
+  font-family: "Gloock", serif;
+  font-size: 30px;
+  position: relative;
+  -webkit-text-stroke: 3px;
+  overflow: visible;
+  text-shadow: 0 0 5px lightskyblue, 0 0 10px lightskyblue,
+    0 0 15px lightskyblue, 0 0 20px lightskyblue;
+  cursor: pointer;
+}
+
+.logo p {
+  overflow: visible;
+  margin: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 22px;
+  right: 0;
+  rotate: -5deg;
+  -webkit-text-stroke: 2px yellow;
+  -webkit-text-fill-color: yellow;
+}
+
+.lines {
+  overflow: visible;
+  display: none;
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  font-size: 30px;
+  
+}
+
+.user {
+  background-color: rgb(15, 16, 63);
+}
+
+.fullscreen {
+  overflow: visible;
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  
+
+  .logo {
+    font-size: 25px;
+    -webkit-text-stroke: 1px;
+    
+  }
+
+  .logo p{
+    font-size: 25px;
+    -webkit-text-stroke: 1px yellow;
+    top: 12px;
+  }
+
+  .lines {
+    display: flex;
+  }
+
+  .lines:hover {
+    cursor: pointer;
+  }
+
+  .fullscreen {
+    display: flex;
+  }
+}

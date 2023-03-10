@@ -1,0 +1,52 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    gap: 0;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: max-content auto;
+    
+}
+
+.sidebar {
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.footer {
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.image {
+    
+    position: relative;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.piece {
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    height: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: 1px white;
+    border-top: 1px solid black;
+    cursor: pointer;
+}

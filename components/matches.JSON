@@ -1,0 +1,250 @@
+{
+  "matches": [
+    [
+        {"match1":""},
+        {"match2":""},
+        {"match3":""},
+        {"match4":""},
+        {"match5":""},
+        {"match6":""},
+        {"match7":""}
+    ]
+
+    ,
+    [
+        {"match1":""},
+        {"match2":""},
+        {"match3":""},
+        {"match4":""},
+        {"match5":""},
+        {"match6":""},
+        {"match7":""}
+    ]
+
+    
+    ,[
+        "Lamia - Tripoli",
+        "OSFP - Ionikos",
+        "PAO - Levadiakos",
+        "Atromitos - Panetolikos",
+        "Volos - OFI",
+        "AEK - PAS Giannina",
+        "Aris - PAOK"
+    ]
+
+    ,
+    [
+        "OFI - Panetolikos",
+        "PAS Giannina - Levadiakos",
+        "Ionikos - Atromitos",
+        "OSFP - Volos",
+        "Tripoli - Aris",
+        "PAO - AEK",
+        "PAOK - Lamia"
+    ]
+
+    ,
+    [
+       "Panetolikos - AEK",
+       "Atromitos - Lamia",
+       "Volos - Ionikos",
+       "Levadiakos - Tripoli",
+       "OFI - PAOK",
+       "Aris - OSFP",
+       "PAO - PAS Giannina"
+    ]
+
+    , [
+       "AEK - Ionikos",
+       "Asteras - OFI",
+       "Volos - Aris",
+       "OSFP - Atromitos",
+       "PAOK - PAO",
+       "PAS Giannina - Panetolikos",
+       "Lamia - Levadiakos "
+    ]
+    ,[
+       "Panaitolikos - Volos",
+       "Ionikos - Lamia",
+       "OFI - OSFP",
+       "Levadiakos - PAOK",
+       "Atromitos - Giannina",
+       "Panathinaikos - Tripoli",
+       "Aris - AEK"
+    ]
+    ,[
+       "Volos - Levadiakos",
+       "Aris - Ionikos",
+       "AEK - Atromitos",
+       "Giannina - OFI",
+       "Lamia - PAO",
+       "Tripoli - Panetolikos",
+       "OSFP - PAOK"
+    ]
+    ,[
+       "Atromitos - Volos",
+       "Panetolikos - OSFP",
+       "Ionikos - Giannina",
+       "PAOK - Tripoli",
+       "Panathinaikos - Aris",
+       "Levadiakos - AEK",
+       "OFI - Lamia"
+    ]
+    ,[
+       "Ionikos - Panetolikos",
+       "Volos - PAO",
+       "OSFP - Lamia",
+       "Levadiakos - Atromitos",
+       "AEK - PAOK",
+       "Aris - OFI",
+       "Giannina - Tripoli"
+    ]
+    ,[
+       "Lamia - Volos",
+       "OFI - Ionikos",
+       "Atromitos - Aris",
+       "PAOK - Giannina",
+       "Panetolikos - Levadiakos",
+       "PAO - OSFP",
+       "Tripoli - Aek"
+    ]
+    ,[
+       "AEK - OFI",
+       "Atromitos - Asteras",
+       "Volos - PAS Giannena",
+       "Levadiakos - OSFP",
+       "Ionikos - PAOK",
+       "Panetolikos - PAO",
+       "Aris -Lamia"
+    ]
+    ,[
+       "OFI - Levadiakos",
+       "Asteras - Ionikos",
+       "PAOK - Volos",
+       "OSFP - AEK",
+       "PAO - Atromitos",
+       "PAS Giannina - Aris",
+       "Lamia - Panetolikos "
+    ]
+    ,[
+       "Levadiakos - Aris",
+       "AEK - Lamia",
+       "Tripoli - Volos",
+       "Giannina - Olympiakos",
+       "Ionikos - PAO",
+       "OFI - Atromitos",
+       "Panetolikos - PAOK"
+    ]
+    ,[
+       "Levadiakos - Ionikos",
+       "OSFP - Asteras",
+       "Volos - AEK",
+       "Atromitos - PAOK",
+       "PAO - OFI",
+       "Aris - Panetolikos",
+       "Lamia - Giannina"
+    ]
+    ,[
+       "Giannena - AEK",
+       "OFI - Volos",
+       "Levadiakos - Pao",
+       "Ionikos - OSFP",
+       "Asteras - Lamia",
+       "Panetolikos - Atromitos",
+       "PAOK - Aris"
+    ]
+    ,[
+       "AEK - PAO",
+       "Levadiakos - Giannina",
+       "Lamia - PAOK",
+       "Volos - OSFP",
+       "Atromitos - Ionikos",
+       "Aris - Asteras Tripolis",
+       "Panetolikos - OFI"
+    ]
+    ,[
+       "Lamia - Atromitos",
+       "PAOK - OFI",
+       "AEK - Panetolikos",
+       "Asteras - Levadiakos",
+       "PAS Giannena - PAO",
+       "OSFP - ARIS",
+       "Ionikos - Volos"
+    ]
+    ,[
+       "Panetolikos - PAS Giannina",
+       "OFI - Asteras",
+       "Aris -Volos",
+       "Atromitos - OSFP",
+       "PAO - PAOK",
+       "Ionikos - AEK",
+       "Levadiakos - Lamia"
+    ]
+    ,[
+       "Volos - Panetolikos",
+       "PAS Giannena - Atromitos",
+       "OSFP - OFI",
+       "AEK - Aris",
+       "PAOK - Levadiakos",
+       "Lamia - Ionikos",
+       "Asteras Tr - PAO"
+    ]
+    ,[
+       "OFI - PAS Giannina",
+       "Ionikos - ARIS",
+       "PAO - Lamia",
+       "Atromitos - AEK",
+       "Panetolikos - Asteras Tripolis",
+       "PAOK - OSFP",
+       "Levadiakos - Volos"
+    ]
+    ,[
+       "PAS Giannina - Ionikos",
+       "Volos - Atromitos",
+       "Aris - PAO",
+       "PAS Lamia - OFI",
+       "Asteras Tripolis - PAOK",
+       "AEK - Levadiakos",
+       "OSFP - Panetolikos"
+    ]
+    ,[
+       "PAO - Volos",
+       "Asteras - PAS Giannena",
+       "Lamia - OSFP",
+       "Panetolikos - Ionikos",
+       "PAOK - AEK",
+       "Atromitos - Levadiakos",
+       "OFI - ARIS"
+    ]
+    ,[
+       "AEK - Ionikos",
+       "Asteras - OFI",
+       "Volos - Aris",
+       "OSFP - Atromitos",
+       "PAOK - PAO",
+       "PAS Giannina - Panetolikos",
+       "Lamia - Levadiakos "
+    ]
+    ,[
+       "AEK - Ionikos",
+       "Asteras - OFI",
+       "Volos - Aris",
+       "OSFP - Atromitos",
+       "PAOK - PAO",
+       "PAS Giannina - Panetolikos",
+       "Lamia - Levadiakos "
+    ]
+    ,[
+       "AEK - Ionikos",
+       "Asteras - OFI",
+       "Volos - Aris",
+       "OSFP - Atromitos",
+       "PAOK - PAO",
+       "PAS Giannina - Panetolikos",
+       "Lamia - Levadiakos "
+    ]
+    
+
+    
+    ]
+}
