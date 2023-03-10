@@ -22,6 +22,7 @@ export default function Unique({ data }) {
                   </div>
                 );
               })}
+              <div className={styles.date}>{a.createdAt}</div>
             </div>
           );
         })}
