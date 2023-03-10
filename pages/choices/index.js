@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 export default function Choices() {
 
-  const agonas = 20;
+  const agonas = 25;
   const data = require("../../components/matches.JSON");
   const { addBet, user, setUser } = useContext(AuthContext);
   const matchday = data.matches[agonas];
