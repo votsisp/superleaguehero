@@ -49,7 +49,7 @@ export default function Signin() {
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
-        <div><input type="submit" value="Εισοδος"/></div>
+        <div className={styles.btn2}><input type="submit" value="Εισοδος"/></div>
         <div className={styles.btn} onClick={() => router.push('/')}>Αρχικη</div>
       </form>
       
