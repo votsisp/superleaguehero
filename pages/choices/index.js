@@ -117,7 +117,7 @@ export default function Choices() {
                   2
                 </div>
               )}
-              <input type="submit" value="ok" className={styles.ok} />
+              <div className={styles.ok}><input type="submit" value="ok"/></div>
               <div className={styles.notok} onClick={() => handleRemove(index)}>
                 X
               </div>
