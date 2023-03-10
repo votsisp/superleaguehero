@@ -37,20 +37,20 @@ export default function Sidebar() {
               <div className={styles.piece}>Βαθμολογία</div>
             )}
           </Link>
-          {/* <Link href="/statistics">
+          <Link href="/statistics">
             {router.pathname === "/statistics" ? (
               <div className={styles.activepiece}>Στατιστικά</div>
             ) : (
               <div className={styles.piece}>Στατιστικά</div>
             )}
-          </Link> */}
-          <Link href="/unique">
+          </Link> 
+          {/*<Link href="/unique">
             {router.pathname === "/unique" ? (
               <div className={styles.activepiece}>Χρήστης</div>
             ) : (
               <div className={styles.piece}>Χρήστης</div>
             )}
-          </Link>
+          </Link>*/}
           <Link href="/rules">
             {router.pathname === "/rules" ? (
               <div className={styles.activepiece}>Κανόνες</div>
