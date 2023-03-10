@@ -217,31 +217,32 @@
        "OFI - ARIS"
     ]
     ,[
-       "AEK - Ionikos",
-       "Asteras - OFI",
-       "Volos - Aris",
-       "OSFP - Atromitos",
-       "PAOK - PAO",
-       "PAS Giannina - Panetolikos",
-       "Lamia - Levadiakos "
+       "Volos - PAS Lamia",
+       "AEK - Asteras Tripoli",
+       "PAS Giannina - PAOK",
+       "OSFP - PAO",
+       "Ionikos - OFI",
+       "Levadiakos - Panetolikos",
+       "ARIS - Atromitos"
     ]
     ,[
-       "AEK - Ionikos",
-       "Asteras - OFI",
-       "Volos - Aris",
-       "OSFP - Atromitos",
-       "PAOK - PAO",
-       "PAS Giannina - Panetolikos",
-       "Lamia - Levadiakos "
+       "Asteras Tripolis - Atromitos",
+       "PAS Giannina - Volos",
+       "OSFP - Levadiakos",
+       "PAS Lamia - Aris",
+       "OFI - AEK",
+       "PAOK - Ionikos",
+       "PAO - Panetolikos"
+       
     ]
     ,[
-       "AEK - Ionikos",
-       "Asteras - OFI",
-       "Volos - Aris",
-       "OSFP - Atromitos",
-       "PAOK - PAO",
-       "PAS Giannina - Panetolikos",
-       "Lamia - Levadiakos "
+       "Volos - PAOK",
+       "Levadiakos - OFI",
+       "Aris - PAS Giannina",
+       "Atromitos - PAO",
+       "AEK - OSFP",
+       "Panetolikos - PAS Lamia",
+       "Ionikos - Asteras Tripolis"
     ]
     
 
