@@ -51,25 +51,6 @@
   outline: none;
 }
 
-.container input[type="submit"] {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  bottom: 0px;
-  border: none;
-  right: 0;
-  text-align: center;
-  width: 50%;
-  height: 50px;
-  font-size: 17px;
-  color: white;
-  padding: 5px;
-  cursor: pointer;
-  background-color: royalblue;
-  
-}
-
 .btn2 {
   position: absolute;
   display: flex;
@@ -85,6 +66,12 @@
   padding: 5px;
   cursor: pointer;
   background-color: royalblue;
+}
+
+.btn2 input {
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
 }
 
 .btn {
