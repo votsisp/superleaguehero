@@ -44,7 +44,7 @@ export default function Choices() {
   return (
     <div className={styles.container}>
       <div className={styles.matches}>
-        {user ? <h2 className={styles.username}><p>{user.username}</p><p>{user.score}</p></h2> : <h2 className={styles.username}><p>Astakos</p><p>Score: 251</p></h2>}
+        {user ? <h2 className={styles.username}><p>{user.username}</p><p>{user.score}</p></h2> : <h2 className={styles.username}></h2>}
         <h3 className={styles.matchday}>SuperLeague Greece Matchday {agonas +1 }</h3>
         {matchday.map((item, index) => {
           return (
