@@ -46,6 +46,18 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.158);
 }
 
+.date {
+  display: flex;
+  color: red;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  padding: 10px 20px;
+  border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+
 .btn2 {
     position: sticky;
     bottom: 0;
