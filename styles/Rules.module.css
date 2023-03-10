@@ -3,7 +3,7 @@
 
 .container {
     width: 100%;
-    max-height: calc(100vh - 150px);
+    height: calc(100vh - 150px);
     display: flex;
     position: relative;
     flex-direction: column;
