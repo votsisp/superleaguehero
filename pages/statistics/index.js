@@ -34,7 +34,7 @@ export default function Unique({ data }) {
 }
 
 export async function getServerSideProps() {
-  let res = await fetch(`https://stoplekto.vercel.app/api/users`, {
+  let res = await fetch(`https://superleaguehero.vercel.app/api/users`, {
     headers: {
       "Content-Type": "application/json",
     },
