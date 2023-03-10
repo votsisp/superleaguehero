@@ -53,15 +53,15 @@ function Layout({ children }) {
               Βαθμολογία
             </div>
           </Link>
-         {/*  <Link href="/statistics">
+          <Link href="/statistics">
             <div
               className={styles.piece}
               onClick={() => setChangeScreen(!changeScreen)}
             >
               Στατιστικά
             </div>
-          </Link> */}
-          <Link href="/unique">
+          </Link>
+          {/*<Link href="/unique">
             <div
               className={styles.piece}
               onClick={() => setChangeScreen(!changeScreen)}
@@ -69,6 +69,7 @@ function Layout({ children }) {
               Χρήστης
             </div>
           </Link>
+          */}
           <Link href="/rules">
             <div
               className={styles.piece}
