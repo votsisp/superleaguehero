@@ -71,6 +71,7 @@
 .btn2 input {
   background-color: transparent;
   border: none;
+  width: 100%;
   font-size: 17px;
 }
 
