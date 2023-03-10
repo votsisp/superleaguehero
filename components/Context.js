@@ -15,7 +15,7 @@ export const AuthProvider = ({ children }) => {
   const getdata = async () => {
     
     try {
-      let res = await fetch(`https://localhost:3000/api/users`, {
+      let res = await fetch(`https://superleaguehero.vercel.app/api/users`, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }) => {
 
   const signin = async (person) => {
     try {
-      const res = await fetch(`http://localhost:3000/api/users`, {
+      const res = await fetch(`https://superleaguehero.vercel.app/api/users`, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -59,7 +59,7 @@ export const AuthProvider = ({ children }) => {
 
   const signup = async (person) => {
     try {
-      let res = await fetch(`http://localhost:3000/api/newusers`, {
+      let res = await fetch(`https://superleaguehero.vercel.app/api/newusers`, {
         
         method: "POST",
         body: JSON.stringify(person),
@@ -73,7 +73,7 @@ export const AuthProvider = ({ children }) => {
 
   const addScores = async (person) => {
     try {
-      let res = await fetch(`http://localhost:3000/api/updateusers`, {
+      let res = await fetch(`https://superleaguehero.vercel.app/updateusers`, {
         headers: { 
           'Content-Type': 'application/json'
         },
@@ -89,7 +89,7 @@ export const AuthProvider = ({ children }) => {
 
   const addBet = async (person) => {
     try {
-      let res = await fetch(`http://localhost:3000/api/updatebets`, {
+      let res = await fetch(`https://superleaguehero.vercel.app/api/updatebets`, {
         headers: { 
           'Content-Type': 'application/json'
         },
