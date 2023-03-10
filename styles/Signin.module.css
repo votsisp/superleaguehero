@@ -70,6 +70,23 @@
   
 }
 
+.btn2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+  right: 0;
+  text-align: center;
+  width: 50%;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  background-color: royalblue;
+}
+
 .btn {
   position: absolute;
   display: flex;
