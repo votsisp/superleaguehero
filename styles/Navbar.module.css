@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   font-family: "Gloock", serif;
-  font-size: 30px;
+  font-size: 40px;
   position: relative;
   -webkit-text-stroke: 3px;
   overflow: visible;
@@ -64,15 +64,15 @@
   
 
   .logo {
-    font-size: 25px;
+    font-size: 40px;
     -webkit-text-stroke: 1px;
     
   }
 
   .logo p{
-    font-size: 25px;
+    font-size: 40px;
     -webkit-text-stroke: 1px yellow;
-    top: 12px;
+    top: 20px;
   }
 
   .lines {
