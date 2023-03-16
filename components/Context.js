@@ -15,7 +15,7 @@ export const AuthProvider = ({ children }) => {
   const getdata = async () => {
     
     try {
-      let res = await fetch(`https://superleaguehero.com/api/users`, {
+      let res = await fetch(`https://www.superleaguehero.com/api/users`, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }) => {
 
   const signin = async (person) => {
     try {
-      const res = await fetch(`https://superleaguehero.com/api/users`, {
+      const res = await fetch(`https://www.superleaguehero.com/api/users`, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -59,7 +59,7 @@ export const AuthProvider = ({ children }) => {
 
   const signup = async (person) => {
     try {
-      let res = await fetch(`https://superleaguehero.com/api/newusers`, {
+      let res = await fetch(`https://www.superleaguehero.com/api/newusers`, {
         
         method: "POST",
         body: JSON.stringify(person),
@@ -73,7 +73,7 @@ export const AuthProvider = ({ children }) => {
 
   const addScores = async (person) => {
     try {
-      let res = await fetch(`https://superleaguehero.com/updateusers`, {
+      let res = await fetch(`https://www.superleaguehero.com/updateusers`, {
         headers: { 
           'Content-Type': 'application/json'
         },
@@ -89,7 +89,7 @@ export const AuthProvider = ({ children }) => {
 
   const addBet = async (person) => {
     try {
-      let res = await fetch(`https://superleaguehero.com/api/updatebets`, {
+      let res = await fetch(`https://www.superleaguehero.com/api/updatebets`, {
         headers: { 
           'Content-Type': 'application/json'
         },
