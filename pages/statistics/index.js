@@ -35,7 +35,7 @@ export default function Unique({ data }) {
 }
 
 export async function getServerSideProps() {
-  let res = await fetch(`https://superleaguehero.com/api/users`, {
+  let res = await fetch(`https://www.superleaguehero.com/api/users`, {
     headers: {
       "Content-Type": "application/json",
     },
